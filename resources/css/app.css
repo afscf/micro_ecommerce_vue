@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-normal {
+        @apply bg-green-500 hover:bg-green-400 p-2 rounded-md text-white
+    }
+}
